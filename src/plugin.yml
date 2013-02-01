@@ -1,0 +1,17 @@
+name: FlyWhileVanished
+version: 1.0
+description: Changes players flying status when they vanish.
+author: jamietech
+website: http://jamiete.ch
+main: ch.jamiete.fwv.FlyWhileVanished
+
+permissions:
+  flywhilevanished.allow:
+    description: Users with this permission are affected by this plugin.
+    default: op
+  flywhilevanished.announce:
+    description: Users with this permission will send an announcement when their fly status changes.
+    default: false
+  flywhilevanished.receive:
+    description: Users with this permission will receive announcements about users.
+    default: op
